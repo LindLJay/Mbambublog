@@ -1,0 +1,17 @@
+BODY{
+    font-family: 'Times New Roman', Times, serif;
+    font-size : 14pt;
+    color: #000000;
+    background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)),url(../Photos/Backgroung.png);
+}
+
+h1  {font-size: 14pt/14pt; font-weight: bold; color: #002366;}
+h2  {font-size: 14pt/14pt; font-weight: bold; color: #333333;}
+h3  {font-size: 14pt/14pt; font-weight: bold; color: #444444;}
+footer {text-align: right;}
+.gras{ font-weight: bold;}
+.italique{font-style: italic;}
+.souligne{text-decoration: underline;}
+
+a:link {color: #996600; text-decoration: underline;}
+a:visited {color: #7b0202; text-decoration:underline;}
