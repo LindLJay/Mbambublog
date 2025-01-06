@@ -1,17 +1,100 @@
-BODY{
+body {
     font-family: 'Times New Roman', Times, serif;
-    font-size : 14pt;
+    font-size: 14pt;
     color: #fafafa;
-    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),url(../Photos/Backgroung.png);
-}
-
-h1  {font-size: 14pt/14pt; font-weight: bold; color: #ffffff; border: 5px outset red;display: inline-block;padding-left: 5px;padding-right: 5px;padding-bottom: 5px;}
-h2  {font-size: 14pt/14pt; font-weight: bold; color: #bbb7b7;}
-h3  {font-size: 14pt/14pt; font-weight: bold; color: #d0caca;}
-footer {text-align: right;}
-.gras{ font-weight: bold;}
-.italique{font-style: italic;}
-.souligne{text-decoration: underline;}
-
-a:link {color: #e19909; text-decoration: underline;}
-a:visited {color: #d10909; text-decoration:underline;}
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Photos/Backgroung.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #ffffff;
+    border: 5px outset red;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: #bbb7b7;
+  }
+  
+  footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fafafa;
+  }
+  
+  .gras {
+    font-weight: bold;
+  }
+  
+  .italique {
+    font-style: italic;
+  }
+  
+  a {
+    color: #e19909;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #ffcc00;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    border: 5px outset red;
+    padding: 10px;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14pt;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  input, textarea, button {
+    font-size: 14pt;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    background-color: #e19909;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d18809;
+  }
+  
