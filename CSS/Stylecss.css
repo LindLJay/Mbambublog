@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     color: #fafafa;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Photos/Backgroung.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Photos/Background.png);
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -101,8 +101,29 @@ body {
   
   /* Rendre le site responsive */
   @media (max-width: 768px) {
-    .navbar ul {
-      flex-direction: column;
-      align-items: center;
+  /* Adapter les tailles et marges des titres */
+    h1 {
+        font-size: 16pt; /* Réduction de la taille */
+        padding: 5px; /* Réduction des espacements */
     }
-  }
+
+    h2, h3 {
+        font-size: 14pt; /* Réduction de la taille */
+        margin: 5px 0; /* Réduction des marges verticales */
+    }
+
+    /* Réduire les bordures et les espacements de la barre de navigation */
+    .navbar {
+        flex-direction: column; /* Aligner les éléments verticalement */
+        padding: 5px; /* Réduction du padding */
+        border-width: 3px; /* Réduction de l'épaisseur de la bordure */
+    }
+
+    .navbar li {
+        margin: 5px 0; /* Réduire les marges entre les items */
+    }
+
+    .navbar a {
+        font-size: 12pt; /* Réduction de la taille du texte */
+    }
+}
